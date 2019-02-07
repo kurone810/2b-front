@@ -10,7 +10,7 @@ xhr.onreadystatechange = function(){
   }
 };
 xhr.responseType = 'json';
-xhr.open('GET',"http://example.com/some.json",true);
+xhr.open('GET',"http://<?= getenv("BACKEND_HOST_NAME") ?>/some.json",true);
 xhr.send();
 })();
   </script>
