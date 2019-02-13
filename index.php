@@ -16,6 +16,6 @@ xhr.send();
   </script>
 </head>
 <body>
-This is the frontend test page!
+This is the frontend test page! okazaki Edit!!
 </body>
 </html>
